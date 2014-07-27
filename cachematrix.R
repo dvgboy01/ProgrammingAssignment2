@@ -45,7 +45,7 @@ cacheSolve <- function(x, ...) {
   
 
   if( !is.null(m) ) {
-    message("getting cached data")
+    message("cached data")
     return(m)
   }
 
